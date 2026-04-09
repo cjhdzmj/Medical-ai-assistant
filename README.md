@@ -6,13 +6,17 @@ An AI-powered assistant designed to support clinical decision-making and streaml
 > **Note:** This project is a **Work in Progress (WIP)** developed as part of my Computer Engineering degree at UPIICSA.
 
 ## 🛠️ Tech Stack
-* **Language:** Python / JavaScript (Pon el que estés usando)
-* **Database:** PostgreSQL / MySQL (El que uses para tus bases de datos)
-* **AI Integration:** OpenAI API / LangChain
-* **Tools:** Git, Docker (si lo usas)
+* **Language:** Python / JavaScript 
+* **Database:** SQLite
+* **AI Integration:** Groq API / Llama 3.3 70B
+* **Tools:** Git, VS Code, Thunder Client.
 
-## 🚀 Key Features (Current & Planned)
-* [x] AI-patient interaction logic.
-* [x] Database schema for medical history.
-* [ ] (WIP) Real-time data encryption.
-* [ ] (WIP) Integration with HL7/FHIR standards.
+## Key Features (Current & Planned)
+[x] AI-patient interaction logic: Motor de interpretación con Llama 3.3 para entender lenguaje natural.
+[x] Contextual Memory: Capacidad de recordar nombres y fechas a través del historial de chat.
+[x] Automated Scheduling: Lógica de negocio para agendar, cancelar y validar disponibilidad.
+[x] Dynamic Dashboard: Panel de control web para visualizar la agenda en tiempo real.
+[ ] (WIP) Multi-channel Integration: Conexión con WhatsApp Cloud API y Telegram.
+[ ] (WIP) Patient Notifications: Recordatorios automáticos de citas vía mensajes.
+[ ] (WIP) Medical FAQ Module: Base de conocimientos para respuestas administrativas frecuentes.
+[ ] (WIP) Cloud Deployment: Migración de local a servidor en la nube (Render/Railway).
